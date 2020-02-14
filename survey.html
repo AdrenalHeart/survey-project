@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="Stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>User Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Take a survey!</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="name">Please enter your name:</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="food">Which of these is your favorite restaurant?</label>
+            <div class="radio">
+              <input type="radio" name="food" value="fast-food" checked>
+              Little Caesar's
+            </div>
+            <div class="radio">
+              <input type="radio" name="food" value="fast-food" checked>
+              Panda Express
+            </div>
+            <div class="radio">
+              <input type="radio" name="food" value="fast-food" checked>
+              Subway
+            </div>
+            <div class="radio">
+              <input type="radio" name="food" value="fast-food" checked>
+              Burger King
+            </div>
+            <div class="radio">
+              <input type="radio" name="food" value="fast-food" checked>
+              KFC
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="date">When was your last visit?</label>
+            <input id="date" class="form-control" type="date">
+          </div>
+          <div class="form-group">
+            <label for="music">What is your favorite music?</label>
+            <select class="form-control" id="music">
+              <option>Please select one:</option>
+              <option>Rock</option>
+              <option>Hip-Hop</option>
+              <option>Techno</option>
+              <option>Country</option>
+              <option>Classical</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="hobbies">What are your hobbies?</label>
+            <input id="hobbies" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="education">What is your highest level of education?</label>
+                <select class="form-control" id="music">
+                  <option>Please select one:</option>
+                  <option>High School Diploma/GED</option>
+                  <option>College Degree</option>
+                  <option>Master's Degree</option>
+                  <option>Bachelor's Degree</option>
+                </select>
+              </div>
+          </div>
+
+          <div class="form-group">
+            <label for="color">What is your favorite color?</label>
+            <input id="color" class="form-control" type="color">
+          </div>
+
+          <button type="submit" class="btn">Finish survey!</button>
+        </form>
+      </div>
+  </body>
+</html>
